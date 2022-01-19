@@ -86,6 +86,5 @@ export default {
 
     inputElement.setAttributeNS(V_NS, "state", invalid ? "invalid" : "valid");
     onUpdate(null, 'swap', inputElement, { newElement: inputElement.cloneNode(true) });
-    console.log(inputElement.toString());
   },
 };
